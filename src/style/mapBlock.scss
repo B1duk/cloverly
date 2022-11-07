@@ -1,0 +1,33 @@
+.map_block {
+    padding-top: 150px;
+    width: 1440px;
+    text-align: center;
+
+    &__textof {
+        width: 940px;
+        padding-left: 300px;
+    }
+
+    &__text {
+        width: 980px;
+        margin-left: 250px;
+    }
+
+    &__buttons {
+        display: flex;
+        margin-left: 450px;
+
+        &__btn {
+            margin-right: 12px;
+        }
+
+        &__bton {
+            margin-left: 12px;
+        }
+    }
+}
+
+.map-img {
+    margin-top: 100px;
+    margin-left: 200px;
+}

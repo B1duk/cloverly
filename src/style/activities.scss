@@ -1,0 +1,38 @@
+@import './variables.scss';
+
+.activities {
+    width: 1440px;
+    height: 553px;
+    padding-top: 150px;
+    background-color: #F2F4E8;
+
+    &__block {
+        width: 1090px;
+        height: 328px;
+        margin: 0px auto 0 auto;
+        padding-top: 75px;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F4E8 217.84%), #193844;
+        border-radius: 30px;
+
+        &__title {
+            color: $light_color;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 48px;
+            margin: 15px auto 10px auto;
+        }
+
+        &__descr {
+            width: 400px;
+            margin: 0px auto 40px auto;
+            color: $light_color;
+            font-size: 21px;
+            font-family: 'Roboto', sans-serif;
+            line-height: 28px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+}

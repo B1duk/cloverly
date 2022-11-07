@@ -1,0 +1,33 @@
+@import './variables.scss';
+
+.text_block{
+    
+    &__logo{
+        color: $active_color;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 15px;
+    }
+
+    &__title{
+        color: $dark_color;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 41px;
+        line-height: 56px;
+        margin-top: 10px;
+    }
+
+    &__text{
+        margin-top: 10px;
+        color: $dark_color;
+        font-size: 21px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 28px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+}

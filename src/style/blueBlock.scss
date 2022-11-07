@@ -1,0 +1,51 @@
+.blue-block {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0A2540;
+    height: 585px;
+    display: flex;
+    padding-top: 150px;
+
+    &__text {
+        margin-right: 113px;
+        margin-left: 179px;
+
+        &__logo {
+            color: #00CA90;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 0px;
+        }
+
+        &__title {
+
+            font-style: normal;
+            font-weight: 400;
+            font-size: 42px;
+            line-height: 56px;
+            color: #FFFFFF;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+
+        &__info {
+            margin-top: 20px;
+            width: 519px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.65);
+        }
+
+        &__button{
+            display: flex;
+            &__btn{
+                margin-right: 15px;
+            }
+        }
+    }
+
+    
+}

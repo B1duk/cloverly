@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+.yellow_Item{
+
+    &__title{
+        color: $dark_color;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 32px;
+        margin-top: 20px;
+    }
+
+    &__text{
+        margin-top: 0px;
+        color: $medium_color;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 22px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+}

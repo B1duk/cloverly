@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+.nav {
+    display: flex;
+    list-style: none;
+    
+    &__item {
+
+        &:not(:last-child) {
+            margin-left: 45px;
+        }
+        
+        &:last-child {
+            margin-left: 240px;
+        }
+
+        &__a{
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            color: $light_color;
+
+            &:hover {
+                opacity: 0.75;
+            }
+        }
+    }
+}

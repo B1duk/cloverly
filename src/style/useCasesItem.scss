@@ -1,0 +1,52 @@
+@import './variables.scss';
+
+.useCases_Item{
+    display: flex;
+    width: 470px;
+    height: 170px;
+    margin-right: 125px;
+    margin-bottom: 60px;
+
+    &__img {
+        width: 165px;
+        height: 160px;
+    }
+
+    &__textBlock {
+        margin-left: 30px;
+
+        
+        &__title{
+            margin-bottom: 10px;
+            margin-top: 0px;
+            color: $dark_color;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+        }
+    
+        &__text{
+            margin-bottom: 10px;
+            color: $medium_color;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+        }
+
+        &__more{
+            margin-top: 15px;
+            color: $dark_color;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+}

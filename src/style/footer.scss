@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+.footer {
+    width: 1440px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: #193844;
+    
+    &__nav {
+        border-bottom: 1px solid $medium_color;
+        display: flex;
+        width: 1090px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+
+        &__login {    
+            text-decoration: none;
+            color: $light_color;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            padding-top: 15px;
+            margin-left: 740px;
+            margin-right: 40px;
+        }
+    }
+
+    &__list {
+        margin-left: 175px;
+        display: flex;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid $medium_color;
+    }
+
+    &__copy {
+        margin-left: 175px;
+        margin-top: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: $light_color;
+    }
+}

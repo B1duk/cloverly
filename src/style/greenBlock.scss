@@ -1,0 +1,73 @@
+@import './variables.scss';
+
+.first-block {
+    width: 1440px;
+    height: 1100px;
+    background-color: $active_color;
+    background-image: url('../img/greenBlock_background.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+
+    &__top {
+        padding-top: 55px;
+        margin-left: 175px;
+        height: 750px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+
+        &__subtitle {
+            padding: 10px 15px;
+            width: 200px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 33px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 15px;
+            color: $light_color;
+        }
+
+        &__title {
+            margin-top: 17px;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 80px;
+            color: $light_color;
+            width: 504px;
+        }
+
+        &__descr {
+            margin-top: 10px;
+            height: 78px;
+            width: 530px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 26px;
+            color: $light_color;
+        }
+
+        &__buttons {
+            display: flex;
+
+            &__btn {
+                margin-right: 12px;
+            }
+        }
+    }
+
+    &__bottom {
+        margin-left: 155px;
+        margin-top: 100px;
+        width: 1130px;
+        height: 100px;
+        text-align: center;
+        background-color: $light_color;
+        display: flex;
+
+        &__img {
+            width: 100px;
+            height: 100px;
+            margin-left: 100px;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+@import './variables.scss';
+
+.footerList {
+   width: 225px;
+
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        letter-spacing: 2.6px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0px;
+        flex-direction: column;
+
+        &__item {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            color: $light_color;
+            width: 150px;
+            margin-top: 20px;
+
+            &__a {
+                text-decoration: none;
+                cursor: pointer;
+                text-decoration: none;
+                font-family: 'Roboto', sans-serif;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px;
+                color: $light_color;
+
+                &:hover {
+                    opacity: 0.75;
+                }
+            }
+       }
+    }
+}

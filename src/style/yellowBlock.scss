@@ -1,0 +1,30 @@
+@import './variables.scss';
+
+.yellow-block {
+    padding-top: 150px;
+    width: 1440px;
+    height: 1100px;
+    background-color: #F2F4E8;
+    display: flex;
+
+    &__left {
+        margin: 0px 130px 0px 175px;
+        text-align: left;
+        width: 517px;
+        
+        &__btn {
+            margin-top: 20px;
+        }
+    }
+    
+    &__right {
+
+        &__item {
+            width: 440px;
+
+            &:not(:last-child) {
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
